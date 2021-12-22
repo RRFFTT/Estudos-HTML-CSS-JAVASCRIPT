@@ -6,6 +6,10 @@
     src: url(../_fonts/comici.ttf);
     font-family: "comicsansms";
     src: url(../_fonts/comic.ttf);
+    font-family: "Sitkaz";
+    src: url(../_fonts/SitkaZ.ttc);
+    font-family: "inkfreereg";
+    src: url(../_fonts/Inkfree.ttf)
 }
 
 body {
@@ -49,7 +53,7 @@ header#cabecalho h1 {
 
 header#cabecalho h2 {
     font-family: "segoeprb";
-    color: rgba(136, 136, 136, 0.658);
+    color: #d2cdc9;
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
@@ -122,42 +126,86 @@ nav#menu a {
 nav#menu a:hover {
     color:rgb(255, 255, 255)
 }
-
 section#corpo {
     display: block;
-    width: 480px;
+    width: 500px;
     float: left;
     border-right: 1px solid #606060;
-    padding: 10px;
-    padding-left: 0px;
-
-    margin-bottom: 50px;
+    padding-right: 10px;
 }
+
+section#corpo h3 {
+    font-family: "Sitkaz";
+    font-size: 14pt;
+    text-align: left;
+    background-color: #dddd;
+    padding: 5px;
+
+}
+
+section#corpo hgroup h1 {
+    font-family: "segoeprb";
+    font-style: italic;
+
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+}
+
+table#tabelaspec td.ce {
+    background-color: #606060;
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+    color: #ffff;
+}
+
+table#tabelaspec caption {
+    color: #969494;
+    font-weight: bold;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    font-size: 8pt;
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    text-align: left;
+    border-right: none;
+    border-bottom: none;
+
+}
+
 aside#lateral {
     display: block;
-    width: 400px;
+    width: 380px;
     float: right;
- 
 }
+
 footer#rodape {
-    display: block;
+    clear: both;
     border-top: 1px solid #606060;
-    margin-top: 1255px;
-    width: 900px;
-
-}
-footer#rodape h4 {
-    display: block;
-    position: relative;
-    font-size: 12pt;
-    margin-right: 250px;
-    padding-left: 10px;
-    padding-right: 250px;
-    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
-footer#rodape h5 {
-    text-decoration: #818181;
+footer#rodape p {
+    font-family: "comicsansms";
+    font-size: 10pt;
     text-align: center;
-    margin-top: 0px;
+    line-height: 5px;
 }
